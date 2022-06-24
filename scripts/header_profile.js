@@ -4,6 +4,6 @@ let numberViews = 3;
 
 document.write(`
     <div class="container">
-        <p>${numberViews} views</p>
+        <p><i class="fa-solid fa-eye"></i> ${numberViews} views</p>
         <h1>${username}<span>#${userid}</span></h1>
     </div>`);

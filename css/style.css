@@ -1,0 +1,225 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* GLOBAL */
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #0F141A;
+}
+nav a{
+    text-decoration: none;
+}
+main{
+    margin-bottom: 30px;
+}
+
+/* NAV MENU */
+nav.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #0F1923;
+}
+nav.menu div{
+    padding-top: 20px;
+}
+nav.menu div a{
+    margin: 0 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #C3C5C8;
+}
+
+/* HEADER */
+header{
+    height: 300px;
+    background-image: url(https://trackercdn.com/cdn/tracker.gg/valorant/images/heroes/hero-jett.jpg?v=1);
+    background-position: top center;
+    background-size: cover;
+}
+header div{
+    padding-top: 230px;
+    margin-left: 350px;
+}
+header div h1{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+header div h1 span{
+    color: #C3C5C8;
+    margin-left: 10px;
+    padding: 3px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgba(124, 126, 126, 0.3);
+    border-radius: 3px;
+}
+header div p{
+    color: #C3C5C8;
+    font-weight: 700;
+}
+
+/* MAIN */
+/* NAV PROFILE */
+div.profile-container{
+    height: 50px;
+    background-color: #263747;
+}
+nav.profile{
+    padding-top: 15px;
+    margin-left: 350px;
+}
+nav.profile a{
+    color: #C9CDD1;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+/* NAV GAME */
+div.selector-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.selector-container nav{
+    margin: 15px 10px;
+    background-color: #33373C;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 3px;
+}
+div.selector-container nav a{
+    color: #B2B4B5;
+    font-weight: 700;
+}
+div.selector-container nav.modes a{
+    padding: 0 40px;
+}
+div.selector-container nav.acts a{
+    padding: 0 30px;
+}
+
+/* MAIN STATS */
+div.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.main-container div.main-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* MAIN OVERVIEW SECTION */
+section.main-overview{
+    background-color: #0F1923;
+    border-radius: 5px;
+    border: 1px solid #1B2733;
+    width: 70%;
+}
+section.main-overview div.title{
+    display: flex;
+    height: 60px;
+}
+section.main-overview div.title *{
+    padding: 0 20px;
+}
+section.main-overview div.title h2{
+    color: white;
+    margin-top: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 500;
+}
+section.main-overview div.title p{
+    margin-top: 28px;
+    color: #8A9BAD;
+    font-weight: 500;
+}
+section.main-overview h3{
+    color:#99ABBF;
+    font-weight: 500;
+}
+section.main-overview p{
+    color: white;
+    font-weight: 700;
+}
+
+/* STATS HIGHLIGHTS*/
+section.main-overview div.stats-highlight{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.4), rgba(255, 0, 0, 0.4));
+}
+section.main-overview div.stats-highlight p{
+    font-size:26px;
+}
+
+div.rating{
+    display: flex;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+div.rating div.rating-img img{
+    height: 70px;
+    margin: 0 30px;
+}
+div.rating div.rating-txt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+div.kad-ratio, div.wins-losses{
+    margin: 45px 20px;
+}
+div.stats-highlight div.wins-losses p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+/* BOXED STATS*/
+div.boxed-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.boxed-stats div.box{
+    background-color: #1B2733;
+    width: 450px;
+    height: 80px;
+    margin: 0 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+}
+div.box h3{
+    margin: 10px 0 5px 60px;
+    font-size: 18px;
+}
+div.box p{
+    margin: 0 60px;
+    font-size: 20px;
+}
+
+/* OTHER STATS */
+div.other-stats{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+div.other-stats div{
+    flex-basis: 200px;
+    margin: 5px 0;
+    padding: 10px 0 10px 10px;
+}
+div.other-stats div p{
+    font-size: 22px;
+}

@@ -23,20 +23,25 @@ let mostKills = 19;
 
 document.write(`
     <div class="title">
-        <h2>E4: A3 Competitive Overview</h2>
-        <p>${playtime} Play Time</p>
+        <h2><i class="fa-solid fa-cubes"></i> E4: A3 Competitive Overview</h2>
+        <p><i class="fa-solid fa-clock"></i> ${playtime} Play Time</p>
         <p>${matchesPlayed} Matches</p>
     </div>
     <div class="stats-highlight">
         <div class="rating">
-            <h3>Rating</h3>
-            <p>${userRank} ${userDivision}</p>
+            <div class="rating-img">
+                <img src="https://trackercdn.com/cdn/tracker.gg/valorant/icons/tiersv2/5.png" alt="rank_image"></img>
+            </div>
+            <div class="rating-txt">
+                <h3>Rating</h3>
+                <p>${userRank} ${userDivision}</p>
+            </div>
         </div>
         <div class="kad-ratio">
             <h3>KAD Ratio</h3>
             <p>${kadRatio}</p>
         </div>
-        <div class="wins-losses"
+        <div class="wins-losses">
             <p>${matchesWon} W</p>
             <p>${matchesLost} L</p>
         </div>
@@ -56,7 +61,7 @@ document.write(`
         </div>
         <div class="box">
             <h3>Win %</h3>
-            <p>${matchesWon/matchesPlayed}</p>
+            <p>${matchesWon/matchesPlayed}%</p>
         </div>
     </div>
     <div class="other-stats">
